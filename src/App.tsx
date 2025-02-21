@@ -331,12 +331,12 @@ function App() {
           <div className="space-y-6 max-w-2xl mx-auto">
             <div>
               <h3 className="text-lg font-semibold text-yellow-400 mb-2">Is this safe?</h3>
-              <div className="text-gray-300">Yes, you are not required to sign in.</div>
+              <div className="text-gray-300">Yes, it is safe. You are not required to sign in or perform any actions with your wallet.</div>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-yellow-400 mb-2">Can I see the code?</h3>
               <div className="text-gray-300">
-                Yes, the code is on <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 underline">GitHub</a>.
+                Yes, the code is on <a href="https://github.com/DanielHighETH/och-rarity" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 underline">GitHub</a>.
               </div>
             </div>
             <div>
