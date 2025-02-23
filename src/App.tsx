@@ -73,6 +73,17 @@ function App() {
         return acc;
       }, {});
 
+      // Remove duplicates from 1/1 category
+      if (groupedTraits['1/1']) {
+        const seen = new Set<string>();
+        groupedTraits['1/1'] = groupedTraits['1/1'].filter(trait => {
+          const key = trait.value.toLowerCase();
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+      }
+
       setTraits(groupedTraits);
 
       const { data: latestHero } = await supabase
