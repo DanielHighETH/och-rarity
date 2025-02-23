@@ -342,7 +342,13 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold text-yellow-400 mb-2">Is the data real-time?</h3>
               <div className="text-gray-300">
-                No, the data updates approximately every 24 hours. We avoid frequent requests to the OnChainHeroes API to prevent spamming.
+                No, the data updates every 24 hours. We avoid frequent requests to the OnChainHeroes API to prevent spamming.
+              </div>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-yellow-400 mb-2">Does level affect rarity?</h3>
+              <div className="text-gray-300">
+                No, level does not affect rarity. Only cosmetic traits and types are used.
               </div>
             </div>
             <div>
